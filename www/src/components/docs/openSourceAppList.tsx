@@ -296,11 +296,32 @@ const projects: App[] = [
     link: "",
   },
   {
+    description: "Profilee - A Profile Link Builder",
+    repoName: "mittalsam98/profilee",
+    repo: "https://github.com/mittalsam98/profilee",
+    linkName: "Profilee",
+    link: "https://www.profilee.info/",
+  },
+  {
     description: "SunalRahal - Your Spotify, in a SVG",
     repoName: "prabincankod/sunal-rahal",
     repo: "https://github.com/prabincankod/sunal-rahal",
     linkName: "SunalRhal",
     link: "https://sunal-rahal.vercel.app",
+  },
+  {
+    description: "RobertHavelaar.dev - A Modern Portfolio and Tool Showcase",
+    repoName: "EastTexasElectronics/portfolio",
+    repo: "https://github.com/EastTexasElectronics/portfolio",
+    linkName: "RobertHavelaar.dev",
+    link: "https://www.roberthavelaar.dev/",
+  },
+  {
+    description: "Tasky - Simplify task management",
+    repoName: "ismaelherreradev/tasky",
+    repo: "https://github.com/ismaelherreradev/tasky",
+    linkName: "taskyboard",
+    link: "https://taskyboard.vercel.app",
   },
 ];
 

@@ -1,5 +1,65 @@
 # Changelog
 
+## 7.37.0
+
+### Minor Changes
+
+- [#1936](https://github.com/t3-oss/create-t3-app/pull/1936) [`2d1878e53767e35ab4b22a37622fbf0d5fdb4da7`](https://github.com/t3-oss/create-t3-app/commit/2d1878e53767e35ab4b22a37622fbf0d5fdb4da7) Thanks [@JoshuaKGoldberg](https://github.com/JoshuaKGoldberg)! - upgrade to typescript eslint v8
+
+- [#1936](https://github.com/t3-oss/create-t3-app/pull/1936) [`2d1878e53767e35ab4b22a37622fbf0d5fdb4da7`](https://github.com/t3-oss/create-t3-app/commit/2d1878e53767e35ab4b22a37622fbf0d5fdb4da7) Thanks [@JoshuaKGoldberg](https://github.com/JoshuaKGoldberg)! - upgrade to drizzle-orm@0.33 and corresponding drizzle-kit version
+
+### Patch Changes
+
+- [#1954](https://github.com/t3-oss/create-t3-app/pull/1954) [`f9f96d069af87d4372dc917e3625409859e4e615`](https://github.com/t3-oss/create-t3-app/commit/f9f96d069af87d4372dc917e3625409859e4e615) Thanks [@ronanru](https://github.com/ronanru)! - fix typo
+
+## 7.36.2
+
+### Patch Changes
+
+- [#1945](https://github.com/t3-oss/create-t3-app/pull/1945) [`9eea9fb5f6d26d42944a660bfcee5f7fb33438ad`](https://github.com/t3-oss/create-t3-app/commit/9eea9fb5f6d26d42944a660bfcee5f7fb33438ad) Thanks [@datasalaryman](https://github.com/datasalaryman)! - resolve client error during getLatest trpc call
+
+- [#1948](https://github.com/t3-oss/create-t3-app/pull/1948) [`3a1b94d29a3addc783e2d6645c2e88a5b7273174`](https://github.com/t3-oss/create-t3-app/commit/3a1b94d29a3addc783e2d6645c2e88a5b7273174) Thanks [@keyding](https://github.com/keyding)! - Update seed.ts in prisma in documentation
+
+- [#1940](https://github.com/t3-oss/create-t3-app/pull/1940) [`46a4e2d144da8b184bf39444b19e0b1bd00bab2b`](https://github.com/t3-oss/create-t3-app/commit/46a4e2d144da8b184bf39444b19e0b1bd00bab2b) Thanks [@KrishanGoyal1](https://github.com/KrishanGoyal1)! - changed default password error message for `start-database` script
+
+## 7.36.1
+
+### Patch Changes
+
+- [#1937](https://github.com/t3-oss/create-t3-app/pull/1937) [`5a0cbc53afb8597d6da2bc6d184ea1427e741cec`](https://github.com/t3-oss/create-t3-app/commit/5a0cbc53afb8597d6da2bc6d184ea1427e741cec) Thanks [@juliusmarminge](https://github.com/juliusmarminge)! - chore: dependency bumps
+
+## 7.36.0
+
+### Minor Changes
+
+- [#1932](https://github.com/t3-oss/create-t3-app/pull/1932) [`42a485a29370fbfe4f03e5f756d97c0fee0b09e8`](https://github.com/t3-oss/create-t3-app/commit/42a485a29370fbfe4f03e5f756d97c0fee0b09e8) Thanks [@juliusmarminge](https://github.com/juliusmarminge)! - feat: add trpc rsc prefetching
+
+### Patch Changes
+
+- [#1934](https://github.com/t3-oss/create-t3-app/pull/1934) [`1cfbb117c892905ea956a597aa6d48e9984b1190`](https://github.com/t3-oss/create-t3-app/commit/1cfbb117c892905ea956a597aa6d48e9984b1190) Thanks [@juliusmarminge](https://github.com/juliusmarminge)! - remove duplicate `<main>` tags
+
+- [#1931](https://github.com/t3-oss/create-t3-app/pull/1931) [`a1a4b8707b95b82e755733b2853ac595bb9d4829`](https://github.com/t3-oss/create-t3-app/commit/a1a4b8707b95b82e755733b2853ac595bb9d4829) Thanks [@juliusmarminge](https://github.com/juliusmarminge)! - fix: unify drizlze schema and fix sqlite timestamps
+
+## 7.35.0
+
+### Minor Changes
+
+- [#1905](https://github.com/t3-oss/create-t3-app/pull/1905) [`b22e2e10d005689faa7b1db771a217b59c88635f`](https://github.com/t3-oss/create-t3-app/commit/b22e2e10d005689faa7b1db771a217b59c88635f) Thanks [@jessedelira](https://github.com/jessedelira)! - Add .idea to .gitignore
+
+### Patch Changes
+
+- [#1909](https://github.com/t3-oss/create-t3-app/pull/1909) [`f69fa29733d3bd0d6e5043d1200e250a938b6335`](https://github.com/t3-oss/create-t3-app/commit/f69fa29733d3bd0d6e5043d1200e250a938b6335) Thanks [@TheDevilOnLine](https://github.com/TheDevilOnLine)! - fix: Added $defaultFn to the user table's id field when using Drizzle to fix #1906
+
+## 7.34.0
+
+### Minor Changes
+
+- [#1893](https://github.com/t3-oss/create-t3-app/pull/1893) [`1925236bcfcafc6c490319ab5f07b2a698e88ef5`](https://github.com/t3-oss/create-t3-app/commit/1925236bcfcafc6c490319ab5f07b2a698e88ef5) Thanks [@brandon93s](https://github.com/brandon93s)! - Add `db:generate` and `db:migrate` scripts to drizzle and prisma installers
+
+### Patch Changes
+
+- [#1891](https://github.com/t3-oss/create-t3-app/pull/1891) [`4236f0dfa969ff0d8b7ce2a60b5595c43ced9043`](https://github.com/t3-oss/create-t3-app/commit/4236f0dfa969ff0d8b7ce2a60b5595c43ced9043) Thanks [@thecmdrunner](https://github.com/thecmdrunner)! - Apply drizzle rules for `ctx.db` object in tRPC context
+
 ## 7.33.1
 
 ### Patch Changes

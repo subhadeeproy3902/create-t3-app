@@ -2,7 +2,7 @@ import { type Config } from "tailwindcss";
 import { fontFamily } from "tailwindcss/defaultTheme";
 
 export default {
-  darkMode: ["class"],
+  darkMode: ["selector"],
   content: ["./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     container: {
@@ -81,5 +81,6 @@ export default {
       },
     },
   },
+  // eslint-disable-next-line @typescript-eslint/no-require-imports
   plugins: [require("tailwindcss-animate")],
 } satisfies Config;
